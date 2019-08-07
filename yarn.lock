@@ -382,7 +382,7 @@ fresh@0.5.2:
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
-graphile-build-pg@4.4.1:
+graphile-build-pg@4.4.1, graphile-build-pg@^4.2.0:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/graphile-build-pg/-/graphile-build-pg-4.4.1.tgz#329e79056ba888f29174439c519051e78bb2308c"
   integrity sha512-Itpi3ShIG+KoRYvgSTXDSGvf2sRUIW+WGO3UIWeS9avFWGQvu5VvvEFZrZTFrha+w4mxvZqb+cSvncMx4Pe3rg==
@@ -728,6 +728,13 @@ postgraphile-core@4.4.1:
     "@types/graphql" "^14.2.0"
     graphile-build "4.4.1"
     graphile-build-pg "4.4.1"
+
+postgraphile-plugin-nested-mutations@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/postgraphile-plugin-nested-mutations/-/postgraphile-plugin-nested-mutations-1.0.0.tgz#10e873dfe3ad69f2c63a640223f01c65dabd235d"
+  integrity sha512-1zkwp33nteFBzwzmAuqkmh1FXLaCjaQBLlG5RnOczpbjYbTpjQUAgKe1tovqrn4dcXySo8zLKvTD9ZVLZV1sPQ==
+  dependencies:
+    graphile-build-pg "^4.2.0"
 
 postgraphile@^4.4.1:
   version "4.4.1"
